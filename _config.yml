@@ -1,6 +1,6 @@
 # main text of home
 title: Hossein Mostafaei Nia
-bio: A Master of Operations Research and Data-Driven Decision Scientist proficient in Python, Machine Learning, Deep Learning, teaching, and data analysis. I have extensive experience in Artificial Intelligence and optimization, and I'm passionate about applying AI to optimize complex systems. Currently seeking a transformative PhD to advance the frontiers of AI and Decision Sciences.
+bio: A Master of Operations Research, Data Analyst, and Data-Driven Decision Scientist
 
 # twitter summary info
 description: A Prospective PhD student
@@ -40,6 +40,8 @@ disqus:
 linkedin: https://www.linkedin.com/in/hosseinmostafaeinia/
 github: https://github.com/omidmno2
 email: hoseinmostafaeinniania@gmail.com
+researchgate: https://www.researchgate.net/profile/Hossein-Mostafaei-Nia
+orcid: https://orcid.org/0009-0001-4151-6287
 
 authors:
   johndoe:
