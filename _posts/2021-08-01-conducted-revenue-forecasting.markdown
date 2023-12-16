@@ -1,8 +1,8 @@
 ---
 title: ":ice cream: Conducted revenue forecasting for a new ice cream shop located Vanak Square in Tehran, Iran"
 layout: post
-date: 2021-08
-tag: jekyll
+date: 2021-08-01 08:00
+tag: ACADEMIC_CHALLENGES 
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
