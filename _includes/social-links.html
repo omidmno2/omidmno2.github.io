@@ -25,8 +25,14 @@
         </a>
     {% endif %}
 
+    {% if site.orcid %}
+        <a class="link" data-title="orcid.org/{{ site.orcid }}" href="orcid.org/{{ site.orcid }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
+            <i class="fa-brands fa-orcid"></i>
+        </a>
+    {% endif %}
+    
     {% if site.researchgate %}
-        <a class="link" data-title="researchgate.com/profile/{{ site.linkedin }}" href="researchgate.com/profile/{{ site.linkedin }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
+        <a class="link" data-title="researchgate.com/profile/{{ site.researchgate }}" href="researchgate.com/profile/{{ site.researchgate }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
             <i class="fa-brands fa-researchgate"></i>
         </a>
     {% endif %}
