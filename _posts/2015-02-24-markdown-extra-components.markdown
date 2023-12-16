@@ -24,3 +24,9 @@ For specially constructed thread from synthetic polymers as microfluidic devices
 - [thread](#thread)
 - [capillary](#capillary)
 - [cross-section](#cross_section)
+
+---
+
+## Authors:
+
+Hossein Mostafaei Nia*, Mohammad Hosein Zafari, M. Haghighat Kish
