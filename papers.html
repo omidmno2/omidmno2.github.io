@@ -7,9 +7,9 @@ title: Papers
 		<p class="text-center">Nothing published yet!</p>
 	{% else %}
 		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
+			{% if post.category == 'papers' %}
 				{% if post.hidden != true %}
-					{% include blog-post.html %}
+					{% include papers-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
