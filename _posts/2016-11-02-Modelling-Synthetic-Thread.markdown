@@ -13,7 +13,7 @@ author: Omid
 description: Presented at the 12th International Seminar on Polymer Science and Technology.
 ---
 
-#Presented at the 12th International Seminar on Polymer Science and Technology.
+Presented at the 12th International Seminar on Polymer Science and Technology.
 
 ## Abstract:
 
