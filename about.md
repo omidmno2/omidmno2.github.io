@@ -25,7 +25,6 @@ layout: page
 	<li>Data Science Libraries: NumPy, pandas, Matplotlib, Keras, TensorFlow, scikit-learn</li>
 	<li>Data Analysis: Cleaning, Visualization, Analysis</li>
 	<li>Tools: Power BI, Tableau, SPSS, GAMS, Microsoft Office Suite</li>
-	<li>TDD e Continuous Integration</li>
 </ul>
 
 <h2>Projects</h2>
