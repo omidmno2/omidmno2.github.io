@@ -1,5 +1,5 @@
 ---
-title: "strategic analysis of Aria Company"
+title: "Strategic analysis of Aria Company"
 layout: post
 date: 2020-01-01 08:00
 tag: ACADEMIC_CHALLENGES 
