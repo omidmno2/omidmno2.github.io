@@ -20,10 +20,6 @@ Conducted revenue forecasting for a new ice cream shop located at Vanak Square i
 
 The presentation is here!
 
-{% highlight html %}
-<iframe src="//https://www.slideshare.net/7kfg9z7zqs/ice-cream-shop-near-vanak-squareppt" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-{% endhighlight %}
-
-<iframe src="//https://www.slideshare.net/7kfg9z7zqs/ice-cream-shop-near-vanak-squareppt" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/7kfg9z7zqs" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 ---
