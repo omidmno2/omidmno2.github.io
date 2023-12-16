@@ -1,5 +1,5 @@
 ---
-title: "Prediction of Electric Vehicle Charging-Power Demand in Realistic Urban Traffic Networks by Arias"
+title: "Fuzzy AHP-TOPSIS Approaches to Prioritizing Solutions for Reverse Logistics Barriers by Sirisawat"
 layout: post
 date: 2019-06-01 08:00
 tag: ACADEMIC_CHALLENGES 
@@ -12,6 +12,6 @@ author: omid
 externalLink: false
 ---
 
-Presented the article "Prediction of Electric Vehicle Charging-Power Demand in Realistic Urban Traffic Networks" by Arias et al., in the Simulation and Queueing Theory course.
+Presented the article "Fuzzy AHP-TOPSIS Approaches to Prioritizing Solutions for Reverse Logistics Barriers" by Sirisawat and Kiatcharoenpol, in the Managerial Decision Making course.
 
 ---
