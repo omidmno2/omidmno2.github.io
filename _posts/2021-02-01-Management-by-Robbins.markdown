@@ -1,5 +1,5 @@
 ---
-title: "chapter 15 of Management by Robbins and Coulter"
+title: "Chapter 15 of Management by Robbins and Coulter"
 layout: post
 date: 2021-02-01 08:00
 tag: ACADEMIC_CHALLENGES 
