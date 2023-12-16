@@ -4,8 +4,10 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Welcome to my academic corner! I'm Hossein Mostafaei Nia, a passionate and dedicated individual committed to unraveling the complexities of data-driven decision-making and contributing to the exciting field of machine learning and operations research.</p>
+<p>Welcome to my academic corner! I'm Omid, also known as Hossein Mostafaei Nia in formal settings. As a data-driven decision scientist with a Master's in Operations Research from Kharazmi University, Tehran, I bring a passion for unravelling the complexities of data-driven decision-making to the forefront of my academic pursuits.</p>
 
+<p>**Everybody Knows Me as Omid**</p>
+	
 <p>As a data-driven decision scientist with a Master's in Operations Research from Kharazmi University, Tehran, I have immersed myself in the world of predictive analytics, time series forecasting, and data visualization. My academic journey has equipped me with a solid foundation in Python, machine learning, deep learning, and the art of teaching. I am driven by the belief that harnessing the power of AI can optimize intricate systems and pave the way for transformative solutions.</p>
 
 <h2>Skills</h2>
