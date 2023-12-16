@@ -5,9 +5,9 @@ date: 2016-11-02 11:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
-- extra
+- microfluidic
+- lab_on_a_chip
+- wicking
 category: papers
 author: H. Mostafaei N., M. H. Zafari, M H. Kish
 description: "Modelling Synthetic Thread as a Microfluidic Device." Presented at the 12th International Seminar on Polymer Science and Technology, 2016.
