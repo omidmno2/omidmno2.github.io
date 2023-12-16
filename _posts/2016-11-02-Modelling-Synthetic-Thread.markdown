@@ -1,5 +1,5 @@
 ---
-title: "Modelling Synthetic Thread as a Microfluidic Device."
+title: "Modelling Synthetic Thread as a Microfluidic Device"
 layout: post
 date: 2016-11-02 11:00
 image: /assets/images/markdown.jpg
@@ -12,6 +12,8 @@ category: papers
 author: Omid
 description: Presented at the 12th International Seminar on Polymer Science and Technology.
 ---
+
+#Presented at the 12th International Seminar on Polymer Science and Technology.
 
 ## Abstract:
 
