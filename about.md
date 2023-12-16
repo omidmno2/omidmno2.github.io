@@ -29,10 +29,20 @@ layout: page
 	<li>Tools: Power BI, Tableau, SPSS, GAMS, Microsoft Office Suite</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>ACADEMIC CHALLENGES & DEVELOPED PROJECTS</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://omidmno2.github.io/conducted-revenue-forecasting/">revenue forecasting for a new ice cream shop</a></li>
+	<li><a href="https://omidmno2.github.io/Management-by-Robbins/">Chapter 15 of Management by Robbins and Coulter</a></li>
+	<li><a href="https://omidmno2.github.io/strategic-analysis/">Strategic analysis of Aria Company</a></li>
+	<li><a href="https://omidmno2.github.io/Supply-Chain-Risk-Management/">Supply Chain Risk Management for Critical Commodities</a></li>
+	<li><a href="https://omidmno2.github.io/SODA-and-JOURNEY/">SODA and JOURNEY</a></li>
+	<li><a href="https://omidmno2.github.io/Ethics/">Machine Learning, Ethics, and Law</a></li>
+	<li><a href="https://omidmno2.github.io/Traffic-Networks/">Prediction of Electric Vehicle Charging-Power Demand in Realistic Urban Traffic Networks</a></li>
+	<li><a href="https://omidmno2.github.io/Fuzzy-AHP-TOPSIS/">Fuzzy AHP-TOPSIS Approaches to Prioritizing Solutions for Reverse Logistics Barriers</a></li>
+	<li><a href="https://omidmno2.github.io/Third-party-Logistics/">A Strategy for Third-party Logistics Systems</a></li>
+	<li><a href="https://omidmno2.github.io/Luleh-va-Mashinsazi/">Simulation of the process of receiving, producing, and delivering orders to customers for Luleh va Mashinsazi Iran Company</a></li>
+	<li><a href="https://omidmno2.github.io/Power-BI-dashboard/">Power BI dashboard for NYC Taxi & Limousine Commission</a></li>
 </ul>
+
+
