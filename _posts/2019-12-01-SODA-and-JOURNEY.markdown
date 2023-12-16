@@ -1,13 +1,12 @@
 ---
 title: "SODA and JOURNEY"
-MAKING"
 layout: post
 date: 2019-12-01 08:00
 tag: ACADEMIC_CHALLENGES 
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
-description: "a class Presentation"
+description: "class Presentation"
 category: project
 author: omid
 externalLink: false
