@@ -1,0 +1,17 @@
+---
+title: "Machine Learning, Ethics, and Law"
+layout: post
+date: 2019-12-01 08:00
+tag: ACADEMIC_CHALLENGES 
+image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+headerImage: false
+projects: true
+description: "a class Presentation"
+category: project
+author: omid
+externalLink: false
+---
+
+Presented the article "Machine Learning, Ethics, and Law" by Miller, in the Business Ethics course.
+
+---
