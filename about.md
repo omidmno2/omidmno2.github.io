@@ -29,6 +29,15 @@ layout: page
 	<li>Tools: Power BI, Tableau, SPSS, GAMS, Microsoft Office Suite</li>
 </ul>
 
+<h2>PUBLICATIONS</h2>
+
+<ul>
+	<li><a href="https://omidmno2.github.io/Candlestick-Chart-Analysis/">"Candlestick Chart Analysis and Deep Learning Approaches for Predicting Stock Market Trends." Mostafaei Nia, H., Ebadati, O. M., & Alam, M. A., 2023.</a></li>
+	<li><a href="https://omidmno2.github.io/Image-Conversion-Techniques/">"Predicting Stock Market Movements: A Comparative Analysis of Technical Indicators, Image Conversion Techniques, and Deep Learning Approaches." Mostafaei Nia, H., Ebadati, O. M., & Alam, M. A., 2023.</a></li>
+	<li><a href="https://omidmno2.github.io/LSTM-and-1D-CNN/">"Exploring the Potential of LSTM and 1D CNN Algorithms for Accurate Tehran Stock Exchange Price Prediction." Mostafaei Nia, H., Ebadati, O. M., & Alam, M. A., 2023.</a></li>
+	<li><a href="https://omidmno2.github.io/Modelling-Synthetic-Thread/">"Modelling Synthetic Thread as a Microfluidic Device." Presented at the 12th International Seminar on Polymer Science and Technology, 2016.</a></li>
+</ul>
+
 <h2>ACADEMIC CHALLENGES & DEVELOPED PROJECTS</h2>
 
 <ul>
