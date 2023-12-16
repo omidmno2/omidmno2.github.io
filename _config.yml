@@ -1,5 +1,5 @@
 # main text of home
-title: Hossein Mostafaei Nia
+title: Hossein (Omid) Mostafaei Nia
 bio: A Master of Operations Research, Data Analyst, and Data-Driven Decision Scientist
 
 # twitter summary info
@@ -40,22 +40,16 @@ disqus:
 linkedin: hosseinmostafaeinia
 github: omidmno2
 email: hoseinmostafaeinniania@gmail.com
-researchgate: https://www.researchgate.net/profile/Hossein-Mostafaei-Nia
-orcid: https://orcid.org/0009-0001-4151-6287
+researchgate: Hossein-Mostafaei-Nia
+orcid: 0009-0001-4151-6287
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Omid Mostafaei Nia
+    bio: A Man who does not remain
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    # twitter: 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
