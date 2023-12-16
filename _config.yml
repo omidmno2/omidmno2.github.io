@@ -31,14 +31,14 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: #[blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 # twitter: mytwitter
 # instagram: myinstagram
-linkedin: https://www.linkedin.com/in/hosseinmostafaeinia/
-github: https://github.com/omidmno2
+linkedin: hosseinmostafaeinia
+github: omidmno2
 email: hoseinmostafaeinniania@gmail.com
 researchgate: https://www.researchgate.net/profile/Hossein-Mostafaei-Nia
 orcid: https://orcid.org/0009-0001-4151-6287
