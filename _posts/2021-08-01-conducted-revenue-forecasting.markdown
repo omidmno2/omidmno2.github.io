@@ -1,5 +1,5 @@
 ---
-title: ":ice cream: Conducted revenue forecasting for a new ice cream shop located Vanak Square in Tehran, Iran"
+title: "🍦 Conducted revenue forecasting for a new ice cream shop located Vanak Square in Tehran, Iran"
 layout: post
 date: 2021-08-01 08:00
 tag: ACADEMIC_CHALLENGES 
