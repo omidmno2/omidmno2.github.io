@@ -25,6 +25,12 @@
         </a>
     {% endif %}
 
+    {% if site.researchgate %}
+        <a class="link" data-title="researchgate.com/profile/{{ site.linkedin }}" href="researchgate.com/profile/{{ site.linkedin }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
+            <i class="fa-brands fa-researchgate"></i>
+        </a>
+    {% endif %}
+    
     {% if site.github %}
         <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
             <i class="fa-brands fa-github"></i>
