@@ -29,6 +29,16 @@ layout: page
 	<li>Tools: Power BI, Tableau, SPSS, GAMS, Microsoft Office Suite</li>
 </ul>
 
+<h2>Teaching</h2>
+
+<h4>Teaching Assistant</h4>
+<i>Operations Management and IT Department, Kharazmi University, Tehran, Iran</i>
+	<li>Instructed graduate students in the Advanced Production and Operations Management course under the primary supervision of Dr. Amir-Reza Abtahi.</li>
+	<li>Taught Operations Management: Creating Value by Russell S. and Taylor B. W. as part of the course curriculum.</li>
+	<li>Facilitated student learning through lectures, discussions, and assignments, including problem-solving activities.</li>
+	<li>Provided additional support to students and evaluated progress through grading and feedback.</li>
+	<li>Contributed to students' academic success, evidenced by their excellent performance in the final exam.</li>
+
 <h2>PUBLICATIONS</h2>
 
 <ul>
