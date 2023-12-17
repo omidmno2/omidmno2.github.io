@@ -32,7 +32,7 @@ layout: page
 <h2>Teaching</h2>
 
 <h4>Teaching Assistant</h4>
-<p>*Operations Management and IT Department, Kharazmi University, Tehran, Iran*</p>
+<em>Operations Management and IT Department, Kharazmi University, Tehran, Iran</em>
 <ul>
 	<li>Instructed graduate students in the Advanced Production and Operations Management course under the primary supervision of Dr. Amir-Reza Abtahi.</li>
 	<li>Taught Operations Management: Creating Value by Russell S. and Taylor B. W. as part of the course curriculum.</li>
