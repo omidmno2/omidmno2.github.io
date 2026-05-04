@@ -42,9 +42,7 @@ papers: true
 read-time: true
 show-tags: true
 related: true
-post-advance-links: [papers]
 post-advance-links: [dashboards]
-post-advance-links: [projects]
 show-author: true
 animation: true
 
