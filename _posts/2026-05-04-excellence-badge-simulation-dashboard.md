@@ -48,7 +48,7 @@ This dashboard was created to answer questions such as:
 
 ## Interactive Dashboard
 
-<div style="background:#fff8e1; border-left:4px solid #f4b400; padding:12px 16px; margin:20px 0; border-radius:6px; font-size:0.95rem; line-height:1.5;">
+<div style="background:#fff8e1; border-left:4px solid #f4b400; padding:12px 16px; margin:20px 0; border-radius:6px; font-size:1.25rem; line-height:1.5;">
   <strong>Viewing tip:</strong> For the best experience, open this dashboard in fullscreen mode or view it directly on Tableau Public.
 </div>
 
