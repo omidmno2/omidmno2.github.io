@@ -45,6 +45,10 @@ This dashboard was built to help business, operations, and performance teams ans
 
 ## Interactive Dashboard
 
+<div style="background:#fff8e1; border-left:4px solid #f4b400; padding:12px 16px; margin:20px 0; border-radius:6px; font-size:0.95rem; line-height:1.5;">
+  <strong>Viewing tip:</strong> For the best experience, open this dashboard in fullscreen mode or view it directly on Tableau Public.
+</div>
+
 The dashboard below is published on Tableau Public using a public-safe synthetic dataset. It preserves the analytical structure of the original work without exposing confidential company data.
 
 <div class="tableau-embed-wrapper">
