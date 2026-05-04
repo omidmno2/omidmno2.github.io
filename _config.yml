@@ -30,7 +30,7 @@ authors:
     external-image: false
     picture: assets/images/profile.jpg
 
-width: normal
+width: large
 
 projects: true
 about: true
