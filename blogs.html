@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Dashboards
+title: Blogs
 ---
 <section class="list">
 	{% if site.posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% else %}
 		{% for post in site.posts %}
-			{% if post.category == 'dashboards' %}
+			{% if post.category == 'blogs' %}
 				{% if post.hidden != true %}
-					{% include dashboards-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
