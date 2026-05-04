@@ -12,7 +12,7 @@ dark-theme: auto
 
 resume: true
 resume-external: false
-resume-url: assets/Omid Mostafaei Nia - CV.pdf
+resume-url: assets/Omid_Mostafaei_Nia_CV.pdf
 
 url: https://omidmno2.github.io
 permalink: /:title/
@@ -32,18 +32,16 @@ authors:
 
 width: normal
 
-# if you don't need projects, comment the *projects* configs below
 projects: true
-# if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 dashboards: true
 papers: true
 
 read-time: true
 show-tags: true
 related: true
-post-advance-links: [dashboards]
+post-advance-links: [dashboards, projects, papers]
 show-author: true
 animation: true
 
