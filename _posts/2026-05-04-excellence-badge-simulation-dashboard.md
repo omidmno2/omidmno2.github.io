@@ -14,6 +14,7 @@ tags:
 - Marketplace_Analytics
 - KPI_Design
 - Decision_Support
+author: Omid
 star: true
 description: "Tableau dashboard designed to simulate Excellence Badge eligibility by testing KPI thresholds and analyzing which vendors would qualify under different scenarios."
 permalink: /excellence-badge-simulation-dashboard/
