@@ -13,6 +13,7 @@ tags:
 - Marketplace_Analytics
 - Performance_Tracking
 - Trend_Analysis
+author: Omid
 star: true
 description: "Tableau dashboard for monitoring long-term vendor performance KPI trends across orders, cancellations, issues, and delay-related indicators."
 permalink: /performance-kpis-monthly-trend-dashboard/
