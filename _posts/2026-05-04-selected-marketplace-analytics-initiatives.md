@@ -15,6 +15,7 @@ tags:
 - Product_Analytics
 - Decision_Support
 - Stakeholder_Management
+author: Omid
 star: false
 description: "Selected marketplace analytics initiatives across vendor performance, operations, product requirements, and decision-support workflows."
 permalink: /selected-marketplace-analytics-initiatives/
