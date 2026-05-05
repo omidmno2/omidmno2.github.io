@@ -101,6 +101,6 @@ The portfolio is organized around four main areas:
 
 <p>
 You can reach me through <a href="mailto:omidmostafaei@yahoo.com">email</a>, 
-<a href="https://www.linkedin.com/in/omidmno2/">LinkedIn</a>, 
+<a href="https://www.linkedin.com/in/omidmostafaei/">LinkedIn</a>, 
 or <a href="https://github.com/omidmno2">GitHub</a>.
 </p>
