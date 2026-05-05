@@ -16,7 +16,7 @@ tags:
 - Decision_Support
 - Stakeholder_Management
 star: false
-description: "A public-safe overview of selected marketplace analytics initiatives across vendor performance, operations, product requirements, and decision-support workflows."
+description: "Selected marketplace analytics initiatives across vendor performance, operations, product requirements, and decision-support workflows."
 permalink: /selected-marketplace-analytics-initiatives/
 ---
 
