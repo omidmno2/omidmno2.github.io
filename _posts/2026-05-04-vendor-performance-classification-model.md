@@ -16,7 +16,7 @@ tags:
 - Performance_Governance
 - Product_Analytics
 star: true
-description: "A public-safe overview of a vendor classification model designed to group vendors by performance quality, operational readiness, and eligibility for recognition or incentives."
+description: "A vendor classification model designed to group vendors by performance quality, operational readiness, and eligibility for recognition or incentives."
 permalink: /vendor-performance-classification-model/
 ---
 
