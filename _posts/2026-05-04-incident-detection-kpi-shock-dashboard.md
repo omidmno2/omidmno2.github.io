@@ -5,6 +5,7 @@ date: 2026-05-04 11:00
 image: /assets/images/markdown.jpg
 headerImage: false
 category: dashboards
+dashboard_group: performance
 tags:
 - Tableau
 - Incident_Detection
