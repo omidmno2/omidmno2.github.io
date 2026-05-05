@@ -15,6 +15,7 @@ tags:
 - Decision_Support
 - Performance_Governance
 - Product_Analytics
+author: Omid
 star: true
 description: "A vendor classification model designed to group vendors by performance quality, operational readiness, and eligibility for recognition or incentives."
 permalink: /vendor-performance-classification-model/
