@@ -3,16 +3,87 @@ layout: page
 title: Dashboards
 ---
 
+<h2>Dashboard Portfolio</h2>
+
+<p>
+This section presents a selection of Tableau dashboards I designed for marketplace operations, vendor performance monitoring, operational follow-up, and decision support.
+</p>
+
+<p>
+The public versions use synthetic and anonymized datasets. They preserve the analytical structure of the original work without exposing confidential company data.
+</p>
+
+<h3>Performance Monitoring</h3>
+
+<p>
+Dashboards focused on tracking operational KPIs, identifying performance trends, and detecting platform-driven shocks.
+</p>
+
 <section class="list">
     {% assign dashboard_posts = site.posts | where: "category", "dashboards" %}
     {% for post in dashboard_posts %}
         {% if post.hidden != true %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
+            {% if post.tags contains "KPI_Monitoring" or post.tags contains "Incident_Detection" %}
+                <div class="item {% if post.star %}star{% endif %}">
+                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                        <h3 class="title">{{ post.title }}</h3>
+                        {% if post.description %}
+                            <p>{{ post.description }}</p>
+                        {% endif %}
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h3>Operations Enablement</h3>
+
+<p>
+Dashboards designed to help operations teams train vendors, diagnose recurring issues, and support follow-up workflows.
+</p>
+
+<section class="list">
+    {% assign dashboard_posts = site.posts | where: "category", "dashboards" %}
+    {% for post in dashboard_posts %}
+        {% if post.hidden != true %}
+            {% if post.tags contains "Vendor_Training" or post.tags contains "Operations_Analytics" %}
+                <div class="item {% if post.star %}star{% endif %}">
+                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                        <h3 class="title">{{ post.title }}</h3>
+                        {% if post.description %}
+                            <p>{{ post.description }}</p>
+                        {% endif %}
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h3>Decision Support & Simulation</h3>
+
+<p>
+Dashboards built to support threshold analysis, policy design, scenario comparison, and business decision-making.
+</p>
+
+<section class="list">
+    {% assign dashboard_posts = site.posts | where: "category", "dashboards" %}
+    {% for post in dashboard_posts %}
+        {% if post.hidden != true %}
+            {% if post.tags contains "Decision_Support" or post.tags contains "Threshold_Analysis" or post.tags contains "Badge_Simulation" %}
+                <div class="item {% if post.star %}star{% endif %}">
+                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                        <h3 class="title">{{ post.title }}</h3>
+                        {% if post.description %}
+                            <p>{{ post.description }}</p>
+                        {% endif %}
+                    </a>
+                </div>
+            {% endif %}
         {% endif %}
     {% endfor %}
 </section>
