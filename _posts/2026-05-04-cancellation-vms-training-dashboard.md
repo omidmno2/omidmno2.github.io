@@ -14,6 +14,7 @@ tags:
 - Confirmation_Delay
 - Vendor_Performance
 - Marketplace_Analytics
+author: Omid
 star: true
 description: "Tableau dashboard designed to support vendor training and operational follow-up for cancellation behavior and confirmation delay issues."
 permalink: /cancellation-vms-training-dashboard/
