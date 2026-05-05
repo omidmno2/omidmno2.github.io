@@ -20,20 +20,22 @@ Dashboards focused on tracking operational KPIs, identifying performance trends,
 </p>
 
 <section class="list">
-    {% assign dashboard_posts = site.posts | where: "category", "dashboards" %}
+    {% assign dashboard_posts = site.posts | where: "category", "dashboards" | where: "dashboard_group", "performance" %}
     {% for post in dashboard_posts %}
         {% if post.hidden != true %}
-            {% if post.tags contains "KPI_Monitoring" or post.tags contains "Incident_Detection" %}
-                <div class="item {% if post.star %}star{% endif %}">
-                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                        <h3 class="title">{{ post.title }}</h3>
-                        {% if post.description %}
-                            <p>{{ post.description }}</p>
-                        {% endif %}
-                    </a>
-                </div>
-            {% endif %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
+                            {{ post.date | date: "%b %d %Y" }}
+                        </time>
+                    </aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                </a>
+            </div>
         {% endif %}
     {% endfor %}
 </section>
@@ -45,24 +47,52 @@ Dashboards designed to help operations teams train vendors, diagnose recurring i
 </p>
 
 <section class="list">
-    {% assign dashboard_posts = site.posts | where: "category", "dashboards" %}
+    {% assign dashboard_posts = site.posts | where: "category", "dashboards" | where: "dashboard_group", "operations" %}
     {% for post in dashboard_posts %}
         {% if post.hidden != true %}
-            {% if post.tags contains "Vendor_Training" or post.tags contains "Operations_Analytics" %}
-                <div class="item {% if post.star %}star{% endif %}">
-                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                        <h3 class="title">{{ post.title }}</h3>
-                        {% if post.description %}
-                            <p>{{ post.description }}</p>
-                        {% endif %}
-                    </a>
-                </div>
-            {% endif %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
+                            {{ post.date | date: "%b %d %Y" }}
+                        </time>
+                    </aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                </a>
+            </div>
         {% endif %}
     {% endfor %}
 </section>
 
+<h3>Decision Support & Simulation</h3>
+
+<p>
+Dashboards built to support threshold analysis, policy design, scenario comparison, and business decision-making.
+</p>
+
+<section class="list">
+    {% assign dashboard_posts = site.posts | where: "category", "dashboards" | where: "dashboard_group", "simulation" %}
+    {% for post in dashboard_posts %}
+        {% if post.hidden != true %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
+                            {{ post.date | date: "%b %d %Y" }}
+                        </time>
+                    </aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
 <h3>Decision Support & Simulation</h3>
 
 <p>
