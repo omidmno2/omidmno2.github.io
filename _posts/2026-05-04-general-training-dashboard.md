@@ -14,6 +14,7 @@ tags:
 - Marketplace_Analytics
 - KPI_Monitoring
 - Dashboard_Design
+author: Omid
 star: true
 description: "Tableau dashboard designed to support the Operation team with vendor training, consultation, follow-up, and performance diagnosis."
 permalink: /general-training-dashboard/
