@@ -4,16 +4,18 @@ layout: post
 date: 2025-10-01 11:00
 image: /assets/images/markdown.jpg
 headerImage: false
-tag:
+category: papers
+paper_status: published
+author: Omid
+star: true
+tags:
 - LSTM
 - 1D_CNN
 - Deep_Learning
 - Time_Series
 - Stock_Market_Forecasting
 - Tehran_Stock_Exchange
-category: papers
-author: Omid
-description: Published research paper on deep learning-based stock price forecasting using LSTM and 1D CNN models in the Tehran Stock Exchange.
+description: "Published research paper on deep learning-based stock price forecasting using LSTM and 1D CNN models in the Tehran Stock Exchange."
 permalink: /LSTM-and-1D-CNN/
 ---
 
@@ -34,11 +36,11 @@ This article has been published in *Advances in Finance and Investment*.
 
 ## Overview
 
-Forecasting stock prices in volatile and emerging markets is a challenging time-series problem. The Tehran Stock Exchange is affected by non-linear price behavior, market noise, incomplete data, and structural instability, which makes traditional forecasting models less reliable in many scenarios.
+Forecasting stock prices in volatile and emerging markets is a challenging time-series problem. The Tehran Stock Exchange is affected by non-linear price behavior, market noise, incomplete data, and structural instability, which can make traditional forecasting models less reliable in many scenarios.
 
 This study developed a deep learning framework for next-day closing price prediction in the Tehran Stock Exchange by combining **one-dimensional Convolutional Neural Networks (1D CNNs)** and **Long Short-Term Memory networks (LSTMs)**. The model was designed to capture both short-term local price patterns and longer temporal dependencies in financial time series.
 
-The research focused on symbol-level forecasting rather than only aggregate market-index prediction, making the framework more relevant for stock-specific analysis and decision-support applications.
+The research focused on stock-level forecasting rather than only aggregate market-index prediction, making the framework more relevant for symbol-level analysis and decision-support applications.
 
 ---
 
@@ -50,7 +52,7 @@ The study aimed to answer three practical questions:
 
 1. Can a hybrid CNN-LSTM architecture improve forecasting accuracy in a volatile emerging market?
 2. How does preprocessing, especially standardization, affect prediction stability?
-3. Can the model remain robust under different data scenarios, including noisy, incomplete, or structurally changing market conditions?
+3. How robust is the model under different data scenarios, including noisy, incomplete, or structurally changing market conditions?
 
 ---
 
@@ -78,9 +80,9 @@ The hybrid CNN-LSTM model showed stable performance across different experimenta
 - **Mean Absolute Error (MAE):** approximately 0.56 to 0.63  
 - **Mean Absolute Percentage Error (MAPE):** approximately 1.26% to 1.46%
 
-The results showed that standardization played an important role in improving model stability. The CNN component helped capture short-term price patterns, while the LSTM component supported the learning of longer-term temporal dependencies.
+The results suggested that standardization played an important role in improving model stability. The CNN component helped capture short-term price patterns, while the LSTM component supported the learning of longer-term temporal dependencies.
 
-The study also found that closing price was one of the most reliable input features compared with more volatile derived features such as percentage changes.
+The study also found that closing price was one of the more reliable input features compared with more volatile derived features such as percentage changes.
 
 ---
 
@@ -92,10 +94,10 @@ To evaluate the adaptability of the model, several experimental scenarios were t
 - different feature configurations;
 - different train-validation splits;
 - exclusion of volatile periods;
-- comparison across Iranian and non-Iranian market data;
+- comparison across different market data scenarios;
 - recursive multi-step forecasting.
 
-The model also showed potential for medium-term forecasting. In recursive forecasting scenarios, it maintained realistic trend continuity for prediction horizons of up to 60 days.
+The results suggested that the model could maintain realistic trend continuity in recursive forecasting scenarios, although this should be interpreted as an experimental finding rather than a ready-to-use trading strategy.
 
 ---
 
