@@ -15,7 +15,7 @@ tags:
 - Operations_Analytics
 - Decision_Support
 star: true
-description: "A public-safe overview of a vendor performance governance framework connecting KPI-based evaluation, incentive logic, operational follow-up, and recurring reporting workflows."
+description: "A vendor performance governance framework connecting KPI-based evaluation, incentive logic, operational follow-up, and recurring reporting workflows."
 permalink: /vendor-performance-governance-framework/
 ---
 
