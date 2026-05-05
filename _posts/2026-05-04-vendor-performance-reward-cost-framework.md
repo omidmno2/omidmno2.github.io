@@ -14,6 +14,7 @@ tags:
 - Workflow_Automation
 - Operations_Analytics
 - Decision_Support
+author: Omid
 star: true
 description: "A vendor performance governance framework connecting KPI-based evaluation, incentive logic, operational follow-up, and recurring reporting workflows."
 permalink: /vendor-performance-governance-framework/
