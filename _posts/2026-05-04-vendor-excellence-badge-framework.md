@@ -15,6 +15,7 @@ tags:
 - Vendor_Segmentation
 - Decision_Support
 - Product_Analytics
+author: Omid
 star: true
 description: "A vendor excellence badge framework designed to identify high-performing vendors, support customer trust, and create performance-based motivation."
 permalink: /vendor-excellence-badge-framework/
