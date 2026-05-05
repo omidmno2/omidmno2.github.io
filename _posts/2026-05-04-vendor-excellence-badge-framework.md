@@ -16,7 +16,7 @@ tags:
 - Decision_Support
 - Product_Analytics
 star: true
-description: "A public-safe overview of a vendor excellence badge framework designed to identify high-performing vendors, support customer trust, and create performance-based motivation."
+description: "A vendor excellence badge framework designed to identify high-performing vendors, support customer trust, and create performance-based motivation."
 permalink: /vendor-excellence-badge-framework/
 ---
 
