@@ -15,6 +15,7 @@ tags:
 - Python
 - Decision_Support
 - Performance_Governance
+author: Omid
 star: true
 description: "An incident detection logic designed to identify platform-driven performance shocks and support fairer vendor performance evaluation."
 permalink: /performance-impacting-incident-detection/
