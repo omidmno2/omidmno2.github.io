@@ -5,6 +5,7 @@ date: 2026-05-04 15:00
 image: /assets/images/markdown.jpg
 headerImage: false
 category: dashboards
+dashboard_group: simulation
 tags:
 - Tableau
 - Vendor_Performance
