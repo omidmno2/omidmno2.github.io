@@ -3,14 +3,79 @@ layout: page
 title: Papers
 ---
 
+<h2>Research & Academic Work</h2>
+
+<p>
+This section includes selected research papers, manuscripts, and academic work related to forecasting, deep learning, optimization, operations research, and decision-support systems.
+</p>
+
+<p>
+Some works are published papers, while others are unpublished research manuscripts or academic projects. Publication status is clearly indicated inside each page.
+</p>
+
+<h3>Published Research</h3>
+
 <section class="list">
-    {% assign paper_posts = site.posts | where: "category", "papers" %}
+    {% assign paper_posts = site.posts | where: "category", "papers" | where: "paper_status", "published" %}
     {% for post in paper_posts %}
         {% if post.hidden != true %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
+                            {{ post.date | date: "%b %d %Y" }}
+                        </time>
+                    </aside>
                     <h3 class="title">{{ post.title }}</h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h3>Research Manuscripts</h3>
+
+<section class="list">
+    {% assign paper_posts = site.posts | where: "category", "papers" | where: "paper_status", "manuscript" %}
+    {% for post in paper_posts %}
+        {% if post.hidden != true %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
+                            {{ post.date | date: "%b %d %Y" }}
+                        </time>
+                    </aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h3>Conference & Academic Projects</h3>
+
+<section class="list">
+    {% assign paper_posts = site.posts | where: "category", "papers" | where: "paper_status", "academic" %}
+    {% for post in paper_posts %}
+        {% if post.hidden != true %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
+                            {{ post.date | date: "%b %d %Y" }}
+                        </time>
+                    </aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
                 </a>
             </div>
         {% endif %}
