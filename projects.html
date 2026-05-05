@@ -66,30 +66,3 @@ Projects involving forecasting, machine learning, anomaly detection, data prepar
         {% endif %}
     {% endfor %}
 </section>
-
-<h3>Academic & Operations Research Projects</h3>
-
-<p>
-Selected academic projects related to operations research, optimization, supply chain analysis, decision-making methods, and industrial systems.
-</p>
-
-<section class="list">
-    {% assign project_posts = site.posts | where: "category", "projects" | where: "project_group", "academic" %}
-    {% for post in project_posts %}
-        {% if post.hidden != true %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside>
-                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">
-                            {{ post.date | date: "%b %d %Y" }}
-                        </time>
-                    </aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                    {% if post.description %}
-                        <p>{{ post.description }}</p>
-                    {% endif %}
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
