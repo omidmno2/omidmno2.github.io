@@ -1,15 +1,17 @@
 # main text of home
 title: Omid Mostafaei Nia
-bio: Senior Business Data Analyst | Marketplace & Operations Analytics | KPI Systems, Dashboards & Incident Detection
+bio: Senior Business Data Analyst | Marketplace & Operations Analytics | KPI Systems, Dashboards & Decision Support
 
-# twitter / SEO summary info
-description: Senior Business Data Analyst with 5+ years of experience in marketplace, operations, and performance analytics. Focused on KPI frameworks, dashboards, anomaly detection, vendor performance, and data-driven decision systems.
+# SEO summary info
+description: Senior Business Data Analyst with experience in marketplace, operations, and performance analytics. Focused on KPI frameworks, Tableau dashboards, vendor performance, incident detection, and data-driven decision systems.
 
 external-image: false
 picture: assets/images/profile.jpg
 
+# Theme: true = dark, false = light, auto = system preference
 dark-theme: auto
 
+# Resume
 resume: true
 resume-external: false
 resume-url: assets/Omid_Mostafaei_Nia_CV.pdf
@@ -17,6 +19,7 @@ resume-url: assets/Omid_Mostafaei_Nia_CV.pdf
 url: https://omidmno2.github.io
 permalink: /:title/
 
+# Social links
 linkedin: omidmno2
 github: omidmno2
 researchgate: Hossein-Mostafaei-Nia
@@ -24,20 +27,23 @@ orcid: 0009-0001-4151-6287
 email: omidmostafaei@yahoo.com
 
 authors:
-  johndoe:
+  Omid:
     name: Omid Mostafaei Nia
-    bio: Senior Business Data Analyst focused on marketplace analytics, operational performance, and decision systems.
+    bio: Senior Business Data Analyst focused on marketplace analytics, operational performance, KPI systems, dashboards, and decision-support workflows.
     external-image: false
     picture: assets/images/profile.jpg
 
+# Site width: normal or large
 width: large
 
+# Main sections
 projects: true
 about: true
 blog: false
 dashboards: true
 papers: true
 
+# Post options
 read-time: true
 show-tags: true
 related: true
@@ -45,14 +51,12 @@ post-advance-links: [dashboards, projects, papers]
 show-author: true
 animation: true
 
-# add default values to specific pages or layouts
+# Default values
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       layout: "post"
     values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
       hidden: false
 
 plugins:
