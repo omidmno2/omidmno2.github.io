@@ -13,6 +13,7 @@ tags:
 - Vendor_Performance
 - Marketplace_Analytics
 - Anomaly_Detection
+author: Omid
 star: true
 description: "Tableau dashboard for identifying platform-driven incidents and matching them with operational KPI shocks to support fairer vendor performance evaluation."
 permalink: /incident-detection-kpi-shock-dashboard/
