@@ -16,7 +16,7 @@ tags:
 - Decision_Support
 - Performance_Governance
 star: true
-description: "A public-safe overview of an incident detection logic designed to identify platform-driven performance shocks and support fairer vendor performance evaluation."
+description: "An incident detection logic designed to identify platform-driven performance shocks and support fairer vendor performance evaluation."
 permalink: /performance-impacting-incident-detection/
 ---
 
