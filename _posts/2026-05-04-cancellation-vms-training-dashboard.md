@@ -5,6 +5,7 @@ date: 2026-05-04 14:00
 image: /assets/images/markdown.jpg
 headerImage: false
 category: dashboards
+dashboard_group: operations
 tags:
 - Tableau
 - Operations_Analytics
