@@ -2,7 +2,7 @@
 title: "Vendor Performance Governance Framework"
 layout: post
 date: 2026-05-04 16:00
-image: /assets/images/previews/vendor-performance-governance-preview.png
+image: /assets/images/preview/vendor-performance-governance-preview.png
 headerImage: false
 category: projects
 project_group: marketplace
